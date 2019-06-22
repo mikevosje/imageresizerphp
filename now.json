@@ -4,7 +4,7 @@
     "builds": [
         {
             "src": "*.php",
-            "use": "@now/php"
+            "use": "now-php-extra"
         }
     ]
 }
