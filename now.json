@@ -1,0 +1,10 @@
+{
+    "version": 2,
+    "name": "auctioncliq-imageresizer",
+    "builds": [
+        {
+            "src": "*.php",
+            "use": "@now/php"
+        }
+    ]
+}

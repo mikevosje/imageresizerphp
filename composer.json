@@ -1,0 +1,8 @@
+{
+    "name": "auctioncliq/imageresizer",
+    "description": "Image resizer for auctioncliq",
+    "require": {
+        "intervention/image": "^2.4",
+        "google/cloud-storage": "^1.12"
+    }
+}
