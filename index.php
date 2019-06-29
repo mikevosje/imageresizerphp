@@ -1,5 +1,6 @@
 <?php
 require __DIR__ . '/vendor/autoload.php';
+
 use Intervention\Image\ImageManagerStatic as Image;
 use Google\Cloud\Storage\StorageClient;
 
@@ -16,6 +17,8 @@ header("Access-Control-Allow-Headers: *");
 header('Access-Control-Allow-Methods: POST, GET, OPTIONS');
 $target_dir = "";
 $uploadOk = 0;
+var_dump($_FILES);
+die();
 if ($_FILES) {
     $newname = basename($_FILES["fileToUpload"]["name"]);
     if (isset($_POST['newnamewithextension']) &&  $_POST['newnamewithextension']) {
