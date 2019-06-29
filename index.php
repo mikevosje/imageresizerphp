@@ -17,6 +17,7 @@ header("Access-Control-Allow-Headers: *");
 header('Access-Control-Allow-Methods: POST, GET, OPTIONS');
 $target_dir = "";
 $uploadOk = 0;
+var_dump('init');
 var_dump($_FILES);
 die();
 if ($_FILES) {
